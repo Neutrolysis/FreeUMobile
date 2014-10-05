@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item 
+         Set id, icon and Title for each menu item
+    -->
+    <item android:id="@+id/menu_c"
+          android:icon="@drawable/icon_c"
+          android:title="" />
+ 
+    <item android:id="@+id/menu_m"
+          android:icon="@drawable/icon_m"
+          android:title="" />
+ 
+    <item android:id="@+id/menu_s"
+          android:icon="@drawable/icon_s"
+          android:title="" />
+ 
+</menu>

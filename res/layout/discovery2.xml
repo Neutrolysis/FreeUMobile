@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/niri"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/lihall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="LIST OF HALL"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#72c9d9"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/liMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lihall" >
+    </ListView>
+
+</RelativeLayout>

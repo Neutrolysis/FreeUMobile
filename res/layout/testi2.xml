@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/niri"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/ttVi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="30dp"
+                    android:text="CONTROLS"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp" />
+
+                <TextView
+               
+                    android:id="@+id/ttVi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:maxHeight="27dp"
+                    android:text="______________________"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp" />
+
+            </RelativeLayout>
+            
+     
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/lampi" />
+
+                <Button
+                    android:id="@+id/lighSet"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/setti"
+                    android:maxWidth="10dp" />
+
+                <Button
+                    android:id="@+id/lighOff"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/lighSet"
+                    android:maxWidth="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="OFF"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/lighOn"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/lighOff"
+                    android:maxWidth="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="ON"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="30dp"
+                    android:text="LIGHT"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+            </RelativeLayout>
+ <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/snowi" />
+
+                <Button
+                    android:id="@+id/acSet"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/setti"
+                    android:maxWidth="10dp" />
+
+                <Button
+                    android:id="@+id/acOff"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/acSet"
+                    android:maxWidth="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="OFF"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/acOn"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/acOff"
+                    android:maxWidth="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="ON"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView12"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="30dp"
+                    android:text="AC"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+            </RelativeLayout>
+             <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/proji" />
+
+                <Button
+                    android:id="@+id/projSet"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/setti"
+                    android:maxWidth="10dp" />
+
+                <Button
+                    android:id="@+id/projOff"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/projSet"
+                    android:maxWidth="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="OFF"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/projOn"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/projOff"
+                    android:maxWidth="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="ON"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView15"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="8dp"
+                    android:paddingRight="5dp"
+                    android:text="PROJECTOR"
+                    android:textColor="#ffffff"
+                    android:textSize="21dp" />
+
+            </RelativeLayout>
+  <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/water" />
+
+                <Button
+                    android:id="@+id/button37"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/setti"
+                    android:maxWidth="10dp" />
+
+                <Button
+                    android:id="@+id/button27"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/button37"
+                    android:maxWidth="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="OFF"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/button18"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@+id/button27"
+                    android:maxWidth="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="ON"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView17"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="30dp"
+                    android:text="LIGHT"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+            </RelativeLayout>
+             
+           
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
